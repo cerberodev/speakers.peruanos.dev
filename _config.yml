@@ -1,1 +1,25 @@
-theme: jekyll-theme-minimal
+
+title: Speakers Peruanos.dev
+email: your-email@example.com
+description: Speakers Lists for Peruvian Conferences >- # this means to ignore newlines until "baseurl:"
+baseurl: "" 
+url: "" 
+
+theme: minima 
+
+collections:
+  speakers:
+    output: true
+    permalink: /speakers/:name
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/  
